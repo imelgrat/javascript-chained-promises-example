@@ -1,0 +1,23 @@
+{
+  "name": "chained-javascript-promises",
+  "version": "1.0.0",
+  "description": "The .then() and .catch() methods always return a promise. So you can chain multiple .then() calls together, making it very simple to create step-by-step actions, where the value returned from each step is used/transformed by the next one.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "javascript",
+    "promise",
+    "promises",
+    "promise chain",
+    "then",
+    "catch"
+  ]
+}
